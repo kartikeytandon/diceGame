@@ -7,10 +7,8 @@ image1.setAttribute("src", randomImageSource);
 
 // working on the second die 
 var randomNumber2 = Math.floor(Math.random()*6)+1;
-var randomDiceImag2 = "dice" + randomNumber2 + ".png";
-var randomImageSource2 = "images/" + randomDiceImage;
-var Image2 = document.querySelectorAll("img")[1];
-Image2.setAttribute("src", randomImageSource);
+var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
+document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 // working of if and else conditions 
 
